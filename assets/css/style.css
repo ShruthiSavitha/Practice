@@ -1,0 +1,321 @@
+/* body */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f8f9fa !important
+}
+
+
+/* installing cabin font */
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('../../assets/css/font/cabin/Cabin-Regular.ttf');
+  }
+
+.container-fluid{
+    width: 100%;
+    padding-right: 0px!important; 
+    padding-left: 0px!important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* text class */
+.text_uppercase{
+    text-transform: uppercase;
+}
+
+
+
+/* top-bar */
+.top-bar{
+    width: 100%;
+     background: #0a3e65;
+     padding:10px;
+}
+.top-bar .top-contant{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Cabin";
+}
+
+.top-menu li {
+    padding: 0px 5px;
+    display: inline-block;
+    border-right: 1px solid white;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Cabin";
+}
+.top-menu li:last-child{
+    border-right: 0px solid #ffffff;
+}
+
+.top-menu li a{
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+/* navbar  */
+.navbar-nav  li.nav-item  a.nav-link{
+    text-transform: uppercase;
+}
+.navbar-brand img{
+width: 150px;
+}
+.custom-menu{
+    padding: 0px;
+}
+
+.custom-menu .collapse .navbar-nav .nav-item .nav-link{
+font-size: 17px;
+color: #0b3e65;
+font-weight: 400;
+font-family: "Cabin";
+}
+.custom-menu .collapse .navbar-nav .nav-item .nav-link:active{
+    font-size: 17px;
+    color: #f18c16;
+    font-weight: 400;
+    font-family: "Cabin";    
+}
+
+
+/* header banner section */
+.header-banner{
+    width: 100%;
+    height: 380px;
+    background: url('../../assets/images/header_banner.jpg') no-repeat center;
+    background-size: cover;
+}
+
+hr.blue {
+    border: 0;
+    height: 2px;
+    background: #0b3e65;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+  }
+
+
+  .headlines{
+    padding: 110px 0px;
+    font-size: 45px;
+    color: #ffffff;
+    font-family: "Canyon";
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .search-form{
+      position: relative;
+      bottom: 64px;
+      width: 75%;
+      margin: 0 auto;
+      background: #f8f9fa;
+      padding: 10px;
+  }
+ .search-form form  .form-group  label{
+    font-size: 14px;
+    color: #f47829;
+    font-weight: 400;
+    font-family: "Cabin";
+    padding: 5px 0px;
+ }
+
+ .search-form form  .form-group  input{
+    font-size:16px;
+    color: #0b3e65;
+    font-weight: 700;
+    font-family: "Cabin";
+ }
+
+  /* button style */
+  .btn-primary{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Cabin";
+    background-color: #0a3e65!important;
+    border-color: #0a3e65;
+    margin-top:25px;
+    width: 90%;
+    text-transform: uppercase;
+   }
+
+
+   /* welcome section */
+
+   .welcometoreflection{
+       padding: 60px 50px;
+   }
+   .title{
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 35px;
+    color: #f47829;
+    font-weight: 500;
+    font-family: "Cabin";
+   }
+.white-title{
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 35px;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Cabin";
+}
+   .welcom_img{
+       float: right;
+   }
+   .welcom_img img{
+       height: 200px;
+       width: 90%;
+       float: right;
+   }
+
+   .welcom-information p, .descSection p{
+    margin-top: 20px;   
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 300;
+    font-family: "Cabin";
+   }
+
+   .descSection p
+{
+    color: #f8f9fa;
+}
+
+
+   .blue-grid-section .imgSection img, .orange-grid-section .imgSection img{
+       width: 100%;
+       height: 300px;
+       overflow: hidden;
+       z-index: 9999;
+   }
+
+
+   .blue-grid-section{
+       background:#0a3e65;
+   }
+   .orange-grid-section{
+    background:#f18c16;
+}
+
+   .blue-grid-section .descSection, .orange-grid-section .descSection{
+       padding: 20px;
+   }
+
+   .no-padding{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+   }
+
+
+
+   /* heart-hand-section */
+   
+   .heart-hand-section{
+       width: 100%;
+       height: 350px;
+       background: url('../../assets/images/handwith_hang.jpg') no-repeat center center;
+       background-size: cover;
+   }
+
+
+   .heart-hand-section .eggImg{
+       width: 500px; 
+       overflow: hidden;
+        margin:30px auto;
+   }
+   .heart-hand-section .eggImg img{
+       width: 450px;
+   }
+
+
+/* video section start from here */
+.video-section{
+    width: 100%;
+    height: 400px;
+    background: url('../../assets/images/video_bg.jpg') no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.video-section video{
+position: absolute;
+left: 30%;
+transform: translate(0%, 44%); 
+}
+
+
+/* contact us */
+
+.contactus-section{
+    padding: 40px 100px;
+    background: #0b3e65;
+}
+
+.contactus-section .meetimg img{
+    height: 300px;
+    float: right;
+}
+
+.formsection form .form-group .form-control-plaintext{
+    background: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Cabin";
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.btn-warning{
+    background: #f18c16;
+    padding: 10px;
+    font-size: 28px;
+    line-height: 110px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Cabin";
+    text-transform: uppercase;
+}
+
+
+/* map section */
+    .mapouter {
+                position: relative;
+                text-align: right;
+                height: 500px;
+                width: 100%;
+            }
+
+            .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 500px;
+                width: 100%;
+            }
+        
+            #gmap_canvas{
+                width: 100%;
+                height: 500px;
+            }
+
+
+    /* footer section */
+    footer{
+        width: 100%;
+        height: 60px;
+        background: url('../../assets/images/footer.jpg') no-repeat center;
+        background-size: cover;
+    }
